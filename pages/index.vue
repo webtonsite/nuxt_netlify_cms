@@ -1,5 +1,12 @@
 <template>
   <div>
+    <div v-for="item in $store.state.blogPosts">
+      {{ item.title }}
+    </div>
+    <div v-for="item in $store.state.profile">
+      {{ item.slug }}
+    </div>
+
     <client-only>
       <home-section></home-section>
       <about-section></about-section>
