@@ -29,6 +29,6 @@ export const actions = {
       res.slug = key.slice(2, -5);
       return res;
     });
-    await commit('setProfile', profile);
+    await commit('setProfile', profile); 
   },
 };
