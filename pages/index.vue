@@ -25,9 +25,10 @@
         </a>
       </div>
       <div>testing:</div>
-      <article>
-        <h1 v-if="blogPost">{{blogPost.title}}</h1>
-      </article>
+      <div v-for="item in $store.state.blogPosts">
+        <h1>{{ item.title }}</h1>
+        <h2>{{ item.body }}</h2>
+      </div>
     </div>
   </div>
 </template>
@@ -35,6 +36,7 @@
 <script>
 import Logo from '~/components/Logo.vue'
  
+
 export default {
   head() {
     return {
