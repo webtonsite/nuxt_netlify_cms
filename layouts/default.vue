@@ -1,55 +1,44 @@
 <template>
   <div>
+      <!--/ NavBar /-->
+      <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+        <div class="container">
+          <a class="navbar-brand js-scroll" href="#page-top">
+            <!-- EDITABLE -->
+            <!-- RR Apdaila -->
+            <img class="logo" src="img/logo.png">
+          </a>
+          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+            aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link js-scroll active" href="#home">Pradžia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll" href="#about">Apie Mus</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll" href="#service">Paslaugos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll" href="#work">Darbai</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll" href="#contact">Kontaktai</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--/ Nav End /-->
+
     <nuxt />
+
   </div>
 </template>
 
-<style>
-html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
-</style>
