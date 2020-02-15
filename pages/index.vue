@@ -27,7 +27,7 @@
       <div>testing:</div>
       <div v-for="item in $store.state.blogPosts">
         <h1>{{ item.title }}</h1>
-        <h2>{{ item.body }}</h2>
+        <h2>{{ item.body }}</h2> 
       </div>
     </div>
   </div>
