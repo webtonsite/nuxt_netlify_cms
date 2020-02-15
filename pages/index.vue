@@ -3,7 +3,7 @@
     <div>
       <logo />
       <h1 class="title">
-        RR Apdaila
+        RR Apdailaa
       </h1>
       <h2 class="subtitle">
         My incredible Nuxt.js project
@@ -26,8 +26,7 @@
       </div>
       <div>testing:</div>
       <article>
-        <h1>{{blogPost.title}}</h1>
-        <div>{{blogPost.body}}</div>
+        <h1 v-if="blogPost">{{blogPost.title}}</h1>
       </article>
     </div>
   </div>
