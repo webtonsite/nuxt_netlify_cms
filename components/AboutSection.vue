@@ -17,7 +17,7 @@
 
                         <div v-for="item in $store.state.profile">
                           <span class="title-s">{{ item.slug }}:</span> 
-                            {{ item.title }}{{ item.label }}
+                            {{ item.title }}{{ item }}
                           </div>
                         </div>
 

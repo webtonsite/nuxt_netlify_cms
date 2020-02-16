@@ -28,9 +28,8 @@ collections:
     folder: 'assets/content/profile'
     create: true
     slug: '{{year}}-{{slug}}'
-    identifier_field: slug
     editor:
       preview: false
     fields:
-      - { label: 'Slug', name: 'slug', widget: 'string' }
+      - { label: 'Slug', name: 'name', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
