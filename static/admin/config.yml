@@ -28,7 +28,7 @@ collections:
     folder: 'assets/content/profile'
     create: true
     slug: '{{slug}}-{{title}}'
-    identifier_field: name
+    identifier_field: slug
     editor:
       preview: false
     fields:
