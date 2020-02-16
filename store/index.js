@@ -12,7 +12,7 @@ export const mutations = {
   setProfile(state, list) {
     state.profile = list;
   },
-  setService(state, list) {
+  setServices(state, list) {
     state.services = list;
   },
 };
@@ -36,11 +36,11 @@ export const actions = {
     await commit('setProfile', profile); 
 
     let files3 = await require.context('~/assets/content/service/', false, /\.json$/);
-    let services = files2.keys().map(key => {
-      let res = files2(key);
+    let services = files3.keys().map(key => {
+      let res = files3(key);
       res.slug = key.slice(2, -5);
       return res;
     });
-    await commit('setService', services); 
+    await commit('setServices', services); 
   },
 };
