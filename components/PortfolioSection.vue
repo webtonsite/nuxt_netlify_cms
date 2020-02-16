@@ -16,7 +16,8 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4">
+
+        <div v-for="item in $store.state.blogPosts" class="col-md-4">
           <div class="work-box">
             <a href="img/darbas-1.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -25,9 +26,9 @@
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-8">
-                    <h2 class="w-title">Lorem impsum dolor</h2>
+                    <h2 class="w-title">{{ item.title }}</h2>
                     <div class="w-more">
-                      <span class="w-date">18 Sep. 2019</span>
+                      <span class="w-date">{{ item.date }}</span>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -40,6 +41,7 @@
             </a>
           </div>
         </div>
+
         <div class="col-md-4">
           <div class="work-box">
             <a href="img/darbas-2.jpg" data-lightbox="gallery-mf">
