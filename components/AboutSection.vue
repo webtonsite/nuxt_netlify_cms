@@ -14,6 +14,13 @@
                     </div>
                     <div class="col-sm-6 col-md-7">
                       <div class="about-info">
+
+                        <div v-for="item in $store.state.profile">
+                          <span class="title-s">{{ item.slug }}: </span> 
+                            {{ item.title }}
+                          </div>
+                        </div>
+
                         <div>
                           <span class="title-s">Vardas: </span> 
                           <!-- EDITABLE -->
