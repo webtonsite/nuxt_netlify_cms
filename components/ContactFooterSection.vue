@@ -69,6 +69,7 @@
                         <span class="ion-ios-location"></span> 
                         {{ item.title }}
                       </li>
+                      <!--
                       <li>
                         <span class="ion-ios-telephone"></span> 
                         {{ item.title }}
@@ -77,6 +78,7 @@
                         <span class="ion-email"></span> 
                         {{ item.title }}
                       </li>
+                      -->
                     </ul>
                   </div>
                   <div class="socials">
