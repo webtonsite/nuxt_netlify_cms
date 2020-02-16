@@ -28,7 +28,7 @@
                   <div class="col-sm-8">
                     <h2 class="w-title">{{ item.title }}</h2>
                     <div class="w-more">
-                      <span class="w-date">{{ item.date }}</span>
+                      <span class="w-date">{{ item.year }}</span>
                     </div>
                   </div>
                   <div class="col-sm-4">
