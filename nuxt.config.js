@@ -31,9 +31,9 @@ module.exports = {
       {src: '/assets/lib/easing/easing.min.js', body: true},
       {src: '/assets/lib/counterup/jquery.waypoints.min.js', body: true},
       {src: '/assets/lib/counterup/jquery.counterup.js', body: true},
-      //{src: '/lib/owlcarousel/owl.carousel.min.js', body: true},
+      //{src: '/assets/lib/owlcarousel/owl.carousel.min.js', body: true},
       {src: '/assets/lib/lightbox/js/lightbox.min.js', body: true},
-      {src: '/assets/lib/typed/typed.min.js', body: true},
+      //{src: '/assets/lib/typed/typed.min.js', body: true},
       {src: '/assets/contactform/contactform.js', body: true},
       {src: '/assets/js/main.js', body: true},
     ]
@@ -55,7 +55,7 @@ module.exports = {
   */
   plugins: [
     //{ src: '~/static/assets/lib/jquery/jquery.min.js' }
-    //{ src: '~/plugins/izitoast.js', ssr: false },
+    { src: '~/plugins/globals.js', ssr: true },
   ],
   /*
   ** Nuxt.js dev-modules
