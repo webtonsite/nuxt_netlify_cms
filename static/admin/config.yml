@@ -19,6 +19,7 @@ collections:
     fields:
       - { label: 'Name', name: 'name', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Icon', name: 'icon', widget: 'string' }
       - { label: 'Order', name: 'order', widget: 'string' }
 
   - name: 'blog'
