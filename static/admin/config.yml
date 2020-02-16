@@ -7,21 +7,7 @@ public_folder: /img
 
 
 collections:
-  - name: "sections"
-    label: "Home Section"
-    widget: "list"
-    types:
-      - label: "Carousel"
-        name: "carousel"
-        widget: object
-        fields:
-          - {label: Header, name: header, widget: string, default: "Image Gallery"}
-          - {label: Template, name: template, widget: string, default: "carousel.html"}
-          - label: Images
-            name: images
-            widget: list
-            field: {label: Image, name: image, widget: image}
-  
+
   - name: 'blog'
     label: 'Blog'
     format: 'json'
