@@ -27,7 +27,7 @@ collections:
     format: 'json'
     folder: 'assets/content/profile'
     create: true
-    slug: '{{year}}-{{slug}}'
+    slug: '{{slug}}'
     editor:
       preview: false
     fields:
