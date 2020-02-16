@@ -1,5 +1,6 @@
 {
   "name": "Adresas",
   "title": "Vilnius",
+  "icon": "ion-ios-location",
   "order": "4"
 }
