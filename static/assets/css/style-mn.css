@@ -4,3 +4,8 @@
 .navbar-b.navbar-reduce .nav-link {
     color: #000000;
 }
+
+.typed-element {
+    display: block!important;
+    align-items: center;
+}

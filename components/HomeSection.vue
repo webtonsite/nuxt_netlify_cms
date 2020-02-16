@@ -14,15 +14,15 @@
             -->
 
             <div class="intro-subtitle">
-            <vue-typed-js 
-              :strings="['Atsakingi', 'Be žalingų įpročių!', 'Siūlome aukščiausią kokybę už konkurencingą kainą']"
-              :typeSpeed="80"
-              :loop="true"
-              :backDelay="1100"
-              :backSpeed="30"
-            >
-              <strong class="typing text-slider"></strong>
-            </vue-typed-js>
+              <vue-typed-js 
+                :strings="['Atsakingi', 'Be žalingų įpročių!', 'Siūlome aukščiausią kokybę už konkurencingą kainą']"
+                :typeSpeed="80"
+                :loop="true"
+                :backDelay="1100"
+                :backSpeed="30"
+              >
+                <strong class="typing text-slider"></strong>
+              </vue-typed-js>
             </div>
 
           </div>

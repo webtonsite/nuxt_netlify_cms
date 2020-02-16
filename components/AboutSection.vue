@@ -18,11 +18,11 @@
                         <div v-for="item in $store.state.profile">
                           <span class="title-s">{{ item.name }}:</span> 
                             {{ item.title }}
-                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
+
                   <div class="skill-mf">
                     <p class="title-s">Patirtis</p>
 
@@ -63,6 +63,8 @@
                     </div>
                   </div>
                 </div>
+
+               
                 <div class="col-md-6">
                   <div class="about-me pt-4 pt-md-0">
                     <div class="title-box-2">
