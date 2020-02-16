@@ -66,7 +66,7 @@
                     <ul class="list-ico">
 
                       <li v-for="item in $store.state.profile">
-                        <span class="ion-ios-location"></span> 
+                        <span :class="item.icon"></span> 
                         {{ item.title }}
                       </li>
                       <!--
