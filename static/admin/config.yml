@@ -33,3 +33,4 @@ collections:
     fields:
       - { label: 'Name', name: 'name', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Order', name: 'order', widget: 'string' }
