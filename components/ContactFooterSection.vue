@@ -64,20 +64,18 @@
                       mollitia inventore?
                     </p>
                     <ul class="list-ico">
-                      <li>
+
+                      <li v-for="item in $store.state.profile">
                         <span class="ion-ios-location"></span> 
-                        <!-- EDITABLE -->
-                        Vilnius
+                        {{ item.title }}
                       </li>
                       <li>
                         <span class="ion-ios-telephone"></span> 
-                        <!-- EDITABLE -->
-                        860851955
+                        {{ item.title }}
                       </li>
                       <li>
                         <span class="ion-email"></span> 
-                        <!-- EDITABLE -->
-                        skucas.ramunas@gmail.com
+                        {{ item.title }}
                       </li>
                     </ul>
                   </div>
