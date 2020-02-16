@@ -8,6 +8,19 @@ public_folder: /img
 
 collections:
 
+  - name: 'profile'
+    label: 'Profile'
+    format: 'json'
+    folder: 'assets/content/profile'
+    create: true
+    slug: '{{order}}-{{name}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Order', name: 'order', widget: 'string' }
+
   - name: 'blog'
     label: 'Blog'
     format: 'json'
@@ -22,15 +35,17 @@ collections:
       - { label: 'Photo', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
-  - name: 'profile'
-    label: 'Profile'
+  - name: 'service'
+    label: 'Service'
     format: 'json'
-    folder: 'assets/content/profile'
+    folder: 'assets/content/service'
     create: true
-    slug: '{{order}}-{{name}}'
+    slug: '{{order}}-{{slug}}'
     editor:
       preview: false
     fields:
-      - { label: 'Name', name: 'name', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Photo', name: 'photo', widget: 'string' }
       - { label: 'Order', name: 'order', widget: 'string' }
+      - { label: 'Short Description', name: 'short_description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
