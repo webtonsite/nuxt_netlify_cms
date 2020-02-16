@@ -4,7 +4,9 @@
       {{ item.title }}
     </div>
     <div v-for="item in $store.state.profile">
-      {{ item.slug }}
+   
+      {{ item.title }}
+      {{ item.field }}
     </div>
 
     <client-only>
