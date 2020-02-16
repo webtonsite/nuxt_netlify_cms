@@ -24,7 +24,7 @@
             <div class="service-content">
               <h2 class="s-title">{{item.title}}</h2>
               <p class="s-description text-center">
-                {{item.short_description}}
+                {{item.body}}
               </p>
             </div>
           </div>
