@@ -19,7 +19,7 @@
 
         <div v-for="item in $store.state.blogPosts" class="col-md-4">
           <div class="work-box">
-            <a href="img/darbas-1.jpg" data-lightbox="gallery-mf">
+            <a :href="item.description" data-lightbox="gallery-mf">
               <div class="work-img">
                 <img :src="item.description" alt="" class="img-fluid">
               </div>
