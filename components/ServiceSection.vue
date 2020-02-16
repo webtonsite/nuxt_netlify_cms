@@ -16,17 +16,15 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4">
+        <div v-for="item in $store.state.services" class="col-md-4">
           <div class="service-box">
             <div class="service-ico">
-              <span class="ico-circle"><i class="ion-monitor"></i></span>
+              <span class="ico-circle"><i :class="item.photo"></i></span>
             </div>
             <div class="service-content">
-              <h2 class="s-title">Gipso kartono montavimas</h2>
+              <h2 class="s-title">{{item.title}}</h2>
               <p class="s-description text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                provident vitae! Magni
-                tempora perferendis eum non provident.
+                {{item.short_description}}
               </p>
             </div>
           </div>

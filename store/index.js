@@ -36,11 +36,11 @@ export const actions = {
     await commit('setProfile', profile); 
 
     let files3 = await require.context('~/assets/content/service/', false, /\.json$/);
-    let profile = files2.keys().map(key => {
+    let services = files2.keys().map(key => {
       let res = files2(key);
       res.slug = key.slice(2, -5);
       return res;
     });
-    await commit('setService', profile); 
+    await commit('setService', services); 
   },
 };
