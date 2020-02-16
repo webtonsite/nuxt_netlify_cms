@@ -21,7 +21,7 @@
           <div class="work-box">
             <a href="img/darbas-1.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
-                <img src="img/darbas-1.jpg" alt="" class="img-fluid">
+                <img :src="item.description" alt="" class="img-fluid">
               </div>
               <div class="work-content">
                 <div class="row">
