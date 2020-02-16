@@ -20,27 +20,6 @@
                             {{ item.title }}
                           </div>
                         </div>
-
-                        <div>
-                          <span class="title-s">Vardas: </span> 
-                          <!-- EDITABLE -->
-                          <span>RR Apdaila</span>
-                        </div>
-                        <div>
-                          <span class="title-s">Profile: </span> 
-                          <!-- EDITABLE -->
-                          <span>Apdaila</span>
-                        </div>
-                        <div>
-                          <span class="title-s">El. Paštas: </span> 
-                          <!-- EDITABLE -->
-                          <span>skucas.ramunas@gmail.com</span>
-                        </div>
-                        <div>
-                          <span class="title-s">Telefonas: </span> 
-                          <!-- EDITABLE -->
-                          <span>860851955</span>
-                        </div>
                       </div>
                     </div>
                   </div>
